@@ -20,7 +20,7 @@ class EventsRepository:
 
                 return eventsInfo
             except IntegrityError:
-                raise Exception("Event hasn't registred")
+                raise Exception("Event has already registred!")
             except Exception as exception:
                 database.session.rollback()
                 raise exception
