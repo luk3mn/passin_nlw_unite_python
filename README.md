@@ -160,7 +160,7 @@ _Before starting this application in your local environment, it'll be necessary 
   - [x] POST /events/{eventId}/attendees
   - [x] GET /attendees/{attendeeId}/badge
   - [x] POST /attendees/{attendeeId}/check-in
-- [ ] Exception Handler
+- [x] Exception Handler
 
 
 <p align="right">(<a href="#passin_nlw_unite_python">back to top</a>)</p>
