@@ -7,7 +7,7 @@ class CheckIns(Base):
 
     id = Column(Integer, primary_key=True)
     created_at = Column(DateTime, default=func.now())
-    attendeeId_id = Column(String, ForeignKey("attendees.id"))
+    attendeeId = Column(String, ForeignKey("attendees.id"))
 
     def __repr__(self):
-        return f"CheckIns [attendeeId{self.attendeeId_id}]"
+        return f"CheckIns [attendeeId{self.attendeeId}]"
