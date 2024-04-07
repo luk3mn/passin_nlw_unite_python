@@ -155,7 +155,7 @@ _Before starting this application in your local environment, it'll be necessary 
 - [x] Implementing Flask environment
 - [ ] Creating POST and GET endpoint to **Event**, **Attendee** and **CheckIns**
   - [ ] GET /events/{eventId}/attendees
-  - [ ] GET /events/{eventId}
+  - [x] GET /events/{eventId}
   - [x] POST /events
   - [ ] POST /events/{eventId}/attendees
   - [ ] GET /attendees/{attendeeId}/badge
