@@ -158,7 +158,7 @@ _Before starting this application in your local environment, it'll be necessary 
   - [x] GET /events/{eventId}
   - [x] POST /events
   - [ ] POST /events/{eventId}/attendees
-  - [ ] GET /attendees/{attendeeId}/badge
+  - [x] GET /attendees/{attendeeId}/badge
   - [ ] POST /attendees/{attendeeId}/check-in
 - [ ] Exception Handler
 
