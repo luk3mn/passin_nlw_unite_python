@@ -149,10 +149,10 @@ _Before starting this application in your local environment, it'll be necessary 
 
 - [x] Init project
 - [x] Creating and configuring database
-- [ ] Creating database migrations
-- [ ] Creating entities to represent the data
-- [ ] Creating an **EventService**
-- [ ] Creating an **AttendeeService**
+- [x] Implementing **Event** entity and repository
+- [x] Implementing **Attendee** entity and repository
+- [x] Implementing **CheckIns** entity and repository
+- [x] Implementing Flask environment
 - [ ] Creating POST and GET endpoint to Event and Attendee
   - [ ] GET /events/{eventId}/attendees
   - [ ] GET /events/{eventId}
