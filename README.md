@@ -153,13 +153,13 @@ _Before starting this application in your local environment, it'll be necessary 
 - [x] Implementing **Attendee** entity and repository
 - [x] Implementing **CheckIns** entity and repository
 - [x] Implementing Flask environment
-- [ ] Creating POST and GET endpoint to **Event**, **Attendee** and **CheckIns**
-  - [ ] GET /events/{eventId}/attendees
+- [x] Creating POST and GET endpoint to **Event**, **Attendee** and **CheckIns**
+  - [x] GET /events/{eventId}/attendees
   - [x] GET /events/{eventId}
   - [x] POST /events
-  - [ ] POST /events/{eventId}/attendees
+  - [x] POST /events/{eventId}/attendees
   - [x] GET /attendees/{attendeeId}/badge
-  - [ ] POST /attendees/{attendeeId}/check-in
+  - [x] POST /attendees/{attendeeId}/check-in
 - [ ] Exception Handler
 
 
